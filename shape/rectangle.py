@@ -7,7 +7,7 @@ from shape.shape import Shape
 
 class Rectangle(Shape):
     """
-    Rectangle class.
+    Class to represent Rectangle class.
 
     Attributes:
         Inherited attributes from shapes class.
