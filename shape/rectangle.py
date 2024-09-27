@@ -4,6 +4,7 @@ Author: Bibekdeep Singh
 Date: 26-09-24
 """
 from shape.shape import Shape
+import math
 
 class Rectangle(Shape):
     """
@@ -72,7 +73,7 @@ class Rectangle(Shape):
         Returns:
             float: The perimeter of rectangle.
 0        """
-        return 2*{self.__length} + 2*{self.__width}
+        return 2*(self.__length) + 2*(self.__width)
 
         
 
